@@ -39,11 +39,11 @@ jobs:
   - template: ${{ variables.CI_TEMPLATE_PATH }}/steps/local-artifact-download.yml
     parameters:
       buildType: specific
-      buildId: 15216
+      buildId: 15521
   - template: ${{ variables.CI_TEMPLATE_PATH }}/steps/local-artifact-download.yml
     parameters:
       buildType: specific
-      buildId: 15217
+      buildId: 15522
   - template: ${{ variables.CI_TEMPLATE_PATH }}/steps/build-cmake.yml
 # extra steps for ctest suite
   - script: |
