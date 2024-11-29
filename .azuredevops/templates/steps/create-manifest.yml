@@ -54,7 +54,7 @@ steps:
         jq -r '
           .dependencies[] | 
           "<tr><td>" + .buildNumber + "</td>" + 
-          "<td>" + .buildId + "</td>" + 
+          "<td><a href=\"https://dev.azure.com/ROCm-CI/ROCm-CI/_build/results?buildId=" + .buildId + "\">" + .buildId + "</a></td>" + 
           "<td><a href=\"" + .repoUrl + "\">" + .repoName + "</a></td>" + 
           "<td><a href=\"" + .repoUrl + "/tree/" + .repoRef + "\">" + .repoRef + "</a></td>" + 
           "<td><a href=\"" + .repoUrl + "/commit/" + .repoVersion + "\">" + .repoVersion + "</a></td></tr>"
