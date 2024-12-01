@@ -20,6 +20,7 @@ source software compilers, debuggers, and libraries. ROCm is fully integrated in
 (ML) frameworks, such as PyTorch and TensorFlow.
 
 ## Getting the ROCm Source Code
+## By Mudassir Alam
 
 AMD ROCm is built from open source software. It is, therefore, possible to modify the various components of ROCm by downloading the source code and rebuilding the components. The source code for ROCm components can be cloned from each of the GitHub repositories using git.  For easy access to download the correct versions of each of these tools, the ROCm repository contains a repo manifest file called [default.xml](./default.xml). You can use this manifest file to download the source code for ROCm software.
 
